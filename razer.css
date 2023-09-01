@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #f7f7f7;
+
+}
+.main-container{
+
+    width: 100%;
+    height: auto;
+
+
+}
+.first-container{
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    
+    border-bottom: 1px solid #44D62C;
+    position: sticky;top: 0px;
+    cursor: pointer;
+    
+
+}
+
+.first-img{
+
+    height: 35px;
+    width: 35px;
+    margin-left: 100px;
+    margin-top: 11px;
+    
+}
+.txt{
+
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin-top: -31px;
+    margin-left: 153px;
+    color: #f7f7f7;
+    z-index: 1;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    color: #999;
+}
+.searchkey{
+
+    
+    width: 17px;
+    margin-left: 82%;
+    margin-top: -33px;
+    display: flex;
+}
+
+.shopping-cart{
+    width: 30px;
+    margin-left: 89%;
+    margin-top: -24px;
+    display: flex;
+    
+    
+
+}
+.second-div{
+
+    width: 100%;
+    height: 47px;
+    background-color: #555;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    cursor: pointer;
+    
+}
+
+.first-para{
+    margin-left: 234px;
+    margin-top: 0px;
+    padding-top: 10px;
+    color: white;
+    font-family: Okra, Helvetica,sans-serif;
+    font-size: 15px;
+}
+.third-box{
+    width: 1349px;
+    height: 700px;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/631eeeb90684b54d5ffefc45e8511ac4/kishi-v2-pro-for-android-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Okra, Helvetica,sans-serif;
+    border-bottom: 11px solid #292828;
+    cursor: pointer;
+
+    
+}
+.second-img{
+
+
+overflow-clip-margin: content-box;
+overflow: clip;
+}
+
+.list-txt{
+    display: flex;
+    font-size: 20px;
+    gap: 17px;
+    margin-left: 619px;
+    margin-top: -31px;
+
+}
+
+.fourth-box{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/631eeeb90684b54d5ffefc45e8511ac4/kishi-v2-xbox-editions-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family:Okra, Helvetica,sans-serif; 
+    border-bottom: 11px solid #292828;
+    cursor: pointer;
+}
+
+.fifth-box{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/631eeeb90684b54d5ffefc45e8511ac4/intel-gamer-days-2023-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family:Okra, Helvetica,sans-serif;
+    margin-top: -48px;
+    border-bottom: 11px solid #292828;
+    cursor: pointer;
+
+}
+
+.sixth-box{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/631eeeb90684b54d5ffefc45e8511ac4/back-to-school-homepage-desktop2x.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family:Okra, Helvetica,sans-serif;
+    margin-top: -48px;
+    border-bottom: 11px solid #292828;
+    cursor: pointer;
+
+}
+
+.parent-box{
+
+    width: 100%;
+    height: 570px;
+    display: flex;
+    color: white;
+    font-family: Okra, Helvetica,sans-serif;
+
+
+    border-bottom: 11px solid #292828;
+}
+
+.child1-box{
+    width: 50%;
+    height: 570;
+    background-image:url(//assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razercon2023-950x580-desktop.webp);
+    background-size: cover;
+    background-position: center;
+    border-right: 11px solid #292828;
+}
+
+
+.child2-box{
+    width: 50%;
+    height: 570;
+    background-image: url(razer-blade-14-2023-b-950x580-desktop\ img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.child1-txt{
+    display: flex;
+    font-size: 17px;
+    gap: 17px;
+    margin-left: 270px;
+    margin-top: -21px;
+
+}
+
+.child2-txt{
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    margin-left: 264px;
+    margin-top: -21px;
+
+}
+
+
+
+
+
+.second-p-box{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    color: white;
+    font-family: Okra, Helvetica,sans-serif;
+
+    cursor: pointer;
+    border-bottom: 11px solid #292828;
+
+}
+
+.se-child1-box{
+    width: 50%;
+    height: 570;
+    background-image:url(https://assets2.razerzone.com/images/pnx.assets/b4f700532670d0f8bf3609a60d24bf8e/razer-blackwidow-v4-75-b-950x580-desktop.webp);
+    background-size: cover;
+    background-position: center;
+    border-right: 11px solid #292828;
+}
+
+.se-child2-box{
+    width: 50%;
+    height: 570;
+    background-image:url(https://assets2.razerzone.com/images/pnx.assets/b4f700532670d0f8bf3609a60d24bf8e/razer-kitsune-950x580-desktop.webp);
+    background-size: cover;
+    background-position: center;
+    border-right: 11px solid #292828;
+}
+
+.se-child1-txt{
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    margin-left: 264px;
+    margin-top: -21px;
+
+}
+
+.se-child2-txt{
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    margin-left: 256px;
+    margin-top: -21px;
+}
+
+
+
+.third-p-box{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    color: white;
+    font-family: Okra, Helvetica,sans-serif;
+    z-index: 1;
+    cursor: pointer;
+
+
+    border-bottom: 11px solid #292828;
+}
+
+.third-child1-box{
+    width: 50%;
+    height: 570;
+    background-image:url(3rd-mercury-blade16-blade18-b-950x580-desktopimg.webp);
+    background-size: cover;
+    background-position: center;
+    border-right: 11px solid #292828;
+}
+
+.third-child2-box{
+    width: 50%;
+    height: 570;
+    background-image:url(3.2razer-edge-b-950x580-desktopimg.webp);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.third-child1-txt{
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    margin-left: 199px;
+    margin-top: -21px;
+
+}
+
+.third-child2-txt{
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    margin-left: 246px;
+    margin-top: -24px;
+}
+
+.or-box{
+
+    width: 95px;
+    height: 37px;
+    background-color: #c79910;
+    color: rgb(0, 0, 0);
+    line-height: 2PX;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 39px;
+    margin-left: 280px;
+   
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    margin-top: -11px;
+    background-color: #030000;
+    display: flex;
+    border-top: 11px solid #292828;
+    
+}
+
+.col-1{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 25px;
+
+}
+
+.col-2{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 25px;
+
+}
+
+.col-3{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 25px;
+
+}
+
+.col-4{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 25px;
+
+}
+
+.col-4{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 25px;
+    
+
+}
+
+.col-5{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: gray;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 55px;
+    
+
+}
+
+.col-6{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: rgb(17, 155, 17);
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 195px;
+    font-weight: bold;
+    
+
+}
+
+.last-txt{
+    list-style: none;
+    font-size: 13px;
+    line-height: 30px;
+    color: grey;
+    z-index: 1;
+    font-family: Okra, Helvetica,sans-serif;
+    margin-top: -18px;
+    padding-top: 19px;
+    margin-left: 195px;
+    float: left;
+    display: flex;
+    z-index: 1;
+    margin-bottom: 0px;
+    
+
+}
