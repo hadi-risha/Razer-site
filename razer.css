@@ -4,7 +4,7 @@
 body{
     margin: 0;
     background: #f7f7f7;
-
+    overflow-x: hidden;
 }
 .main-container{
 
@@ -84,7 +84,7 @@ body{
     font-size: 15px;
 }
 .third-box{
-    width: 1349px;
+    width: 100vw;
     height: 700px;
     background-image: url(https://assets2.razerzone.com/images/pnx.assets/631eeeb90684b54d5ffefc45e8511ac4/kishi-v2-pro-for-android-homepage-desktop2x.webp);
     background-size: cover;
